@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "chart.js": "^4.5.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "liquid-temp-reader": "file:.."
   }
 }
