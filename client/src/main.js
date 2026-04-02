@@ -54,7 +54,19 @@ function chartInit() {
                 }
 
             },
-            animation:false
+            line: {
+                pointRadius: 0
+            },
+            elements: {
+                point: {
+                    radius: 0
+                }
+            },
+            animation:false,
+            interaction: {
+                intersect: false,
+                mode: "x"
+            }
         }
     });
 }
